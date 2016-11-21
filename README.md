@@ -45,4 +45,4 @@ Após estar com o seu google tag manager criado e instalado, será necessário c
 ![Tutorial parte 8](http://metricasboss.com.br/img/affly/affly-tutorial-8.png)
 
 ## Instalação para os preguiçosos ;)
-Caso voce já esteja familiarizado com o Google Tag Manager, você já sabe que é possível importar um container via json, então só copiar o [json](/metricasboss/affly/blob/master/export/GTM-MC32K4F_v1.json) e exportar no GTM.
+Caso voce já esteja familiarizado com o Google Tag Manager, você já sabe que é possível importar um container via json, então só copiar o [json](https://github.com/metricasboss/affly/blob/master/export/GTM-MC32K4F_v1.json) e exportar no GTM.
