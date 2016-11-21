@@ -46,3 +46,13 @@ Após estar com o seu google tag manager criado e instalado, será necessário c
 
 ## Instalação para os preguiçosos ;)
 Caso voce já esteja familiarizado com o Google Tag Manager, você já sabe que é possível importar um container via json, então só copiar o [json](https://github.com/metricasboss/affly/blob/master/export/GTM-MC32K4F_v1.json) e exportar no GTM.
+
+## Customização opcional
+
+Existem 2 parâmetros customizáveis no nosso plugin, um para configurar a janela e conversão e outro para configurar o nome do cookie que será setado. Os mesmos podem ser passados na própria execução da função, como o código abaixo especifica:
+
+``` html
+<script>
+!function(e,n){var r={windowConversion:n||30,cookieName:e||"affly_origin"},o=function(){var e={};window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(n,r,o){e[r]=o});return e},t=o(),i=function(){if(t.utm_source){var e=new Date;e.setTime(e.getTime()+24*r.windowConversion*60*60*1e3);var n="expires="+e.toUTCString();return document.cookie="affly_origin="+t.utm_source+";"+n+";path=/"}return!1},u=function(){return document.cookie="affly_origin=;expires=Thu, 01 Jan 1970 00:00:01 GMT;"},c=function(){for(var e=document.cookie.split(";"),n=0;n<e.length;n++){for(var o=e[n];" "==o.charAt(0);)o=o.substring(1);if(0==o.indexOf(r.cookieName))return o.substring(name.length,o.length)}return!1},f=function(){var e=document.referrer,n=new RegExp("(https|http)://www.google.com.br");return!!n.test(e)&&!!("google"===t.utm_source&&"cpc"===t.utm_medium||t.gclid)},a=function(){c()?f()&&u():i()};return a()}(30, "MUDANDO_O_NOME_DO_COOKIE");
+</script>
+```
