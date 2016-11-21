@@ -9,7 +9,7 @@ Por isso criamos o Affly, um controlador de cookies que baseado na origem do ace
 
 ## Instalação
 
-Para realizar a instalação e configuração do mesmo será necessário a utilização do [Google Tag Manager](googletagmanager.com), caso você não esteja familiarizado com o google tag manager a [métricas boss](http://metricasboss.com.br/google-tag-manager/) tem diversos posts em português falando sobre o assunto.
+Para realizar a instalação e configuração do mesmo será necessário a utilização do [Google Tag Manager](googletagmanager.com), caso você não esteja familiarizado com o google tag manager a [métricas boss](http://metricasboss.com.br/google-tag-manager/?utm_source=github&utm_medium=documentacao) tem diversos posts em português falando sobre o assunto.
 
 Após estar com o seu google tag manager criado e instalado, será necessário criar uma tag customizada para implementação do script abaixo, segue o passo a passo.
 
