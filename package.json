@@ -1,0 +1,23 @@
+{
+  "name": "affly",
+  "version": "0.0.1",
+  "description": "Destinado a implementação de pixels de afiliados",
+  "main": "src/affly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Métricas Boss <contato@metricasboss.com.br> (http://metricasboss.com.br)",
+  "authors": [
+    "Lucian Fialho <lucian@metricasboss.com.br>",
+    "Phill Mello <phill@metricasboss.com.br>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-minify": "0.0.14",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Affly",
+  "description": "Destinado a implementação de pixels de afiliados",
+  "main": "src/affly.js",
+  "authors": [
+    "Métricas Boss <contato@metricasboss.com.br> (http://metricasboss.com.br)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
