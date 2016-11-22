@@ -1,8 +1,8 @@
 (function(windowConversion, cookieName){
 
     var options = {
-        windowConversion: cookieName || 30,
-        cookieName: windowConversion || 'affly_origin'
+        windowConversion: windowConversion || 30,
+        cookieName: cookieName || 'affly_origin'
     };
 
     /**
