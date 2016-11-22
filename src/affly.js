@@ -32,7 +32,7 @@
             var d = new Date();
                 d.setTime(d.getTime() + (options.windowConversion * 24 * 60 * 60 * 1000));
             var expires = "expires="+ d.toUTCString();
-            return document.cookie = "affly_origin" + "=" + origin.utm_source + ";" + expires + ";path=/";
+            return document.cookie = options.cookieName + "=" + origin.utm_source + ";" + expires + ";path=/";
         }
         return false;
     }
@@ -43,7 +43,7 @@
 	 * @returns {Cookie} resetado
     */
     var deleteAfflyOriginCookie = function() {
-        return document.cookie = 'affly_origin=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        return document.cookie = options.cookieName+'=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     };
 
 
