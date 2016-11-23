@@ -74,7 +74,7 @@
     */
     var checkPaidGoogleOrigin = function(){
         var referrer = document.referrer,
-            patt = new RegExp("(https|http):\/\/www\.google\.com\.br");
+            patt = new RegExp("(https|http):\/\/www\.google\.com(\.br)?");
 
         if(patt.test(referrer)){
             if((origin['utm_source'] === 'google' && origin['utm_medium'] === 'cpc') || origin['gclid']){
