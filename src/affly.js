@@ -90,6 +90,8 @@
             setAfflyOriginCookie();
         }else if(checkPaidGoogleOrigin()){
             deleteAfflyOriginCookie();
+        }else{
+            setAfflyOriginCookie();
         }
     }
     return init()
